@@ -1,0 +1,42 @@
+{
+  "modelo": "YOLOv8n",
+  "fuente": "C:\\Users\\Usuario\\Videos\\pruebavideo\\11.mp4",
+  "umbral_confianza": 0.45,
+  "dispositivo": "cpu",
+  "clases_detectadas": [
+    "Persona",
+    "Coche",
+    "Moto",
+    "Camión",
+    "Pájaro",
+    "Gato",
+    "Perro",
+    "Caballo",
+    "Oveja",
+    "Vaca"
+  ],
+  "fps_fuente": 29.97,
+  "fotogramas_procesados": 1304,
+  "fotogramas_calentamiento_excluidos_del_tiempo": 5,
+  "latencia_media_ms": 53.2,
+  "latencia_mediana_ms": 52.5,
+  "latencia_p95_ms": 63.2,
+  "latencia_min_ms": 38.9,
+  "latencia_max_ms": 119.3,
+  "fps_modelo": 18.81,
+  "fps_bucle_completo": 15.51,
+  "factor_tiempo_real": 0.627,
+  "fotogramas_perdidos_en_vivo_estimado_pct": 37.3,
+  "detecciones_por_fotograma": 9.73,
+  "max_detecciones_en_un_fotograma": 20,
+  "confianza_media": 0.6918,
+  "estabilidad_temporal": 0.8541,
+  "variacion_conteo_media": 0.807,
+  "detecciones_por_clase": {
+    "Persona": 11792,
+    "Coche": 426,
+    "Moto": 404,
+    "Camión": 68
+  },
+  "duracion_procesamiento_s": 84.2
+}
