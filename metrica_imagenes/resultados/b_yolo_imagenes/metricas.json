@@ -1,0 +1,586 @@
+{
+  "modelo": "YOLOv8n",
+  "backend": "ultralytics",
+  "imagenes": 128,
+  "latencia_media_ms": 67.1,
+  "latencia_mediana_ms": 61.5,
+  "latencia_p95_ms": 111.6,
+  "fps": 14.91,
+  "dispositivo": "cpu",
+  "equipo": "Windows | AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "objetos_detectados_por_clase": {
+    "person": 134,
+    "donut": 18,
+    "bowl": 13,
+    "elephant": 12,
+    "bird": 11,
+    "chair": 10,
+    "cup": 9,
+    "car": 8,
+    "giraffe": 7,
+    "clock": 7,
+    "bottle": 7,
+    "potted plant": 6,
+    "knife": 6,
+    "pizza": 6,
+    "dining table": 6,
+    "carrot": 6,
+    "vase": 5,
+    "cake": 5,
+    "bus": 5,
+    "wine glass": 5,
+    "frisbee": 5,
+    "teddy bear": 5,
+    "zebra": 4,
+    "motorcycle": 4,
+    "dog": 4,
+    "airplane": 4,
+    "tie": 4,
+    "oven": 3,
+    "microwave": 3,
+    "snowboard": 3,
+    "baseball glove": 3,
+    "cat": 3,
+    "broccoli": 2,
+    "umbrella": 2,
+    "horse": 2,
+    "train": 2,
+    "bicycle": 2,
+    "skateboard": 2,
+    "refrigerator": 2,
+    "suitcase": 2,
+    "hot dog": 2,
+    "book": 2,
+    "couch": 2,
+    "tennis racket": 2,
+    "remote": 2,
+    "sink": 2,
+    "fork": 1,
+    "kite": 1,
+    "stop sign": 1,
+    "truck": 1,
+    "backpack": 1,
+    "traffic light": 1,
+    "sports ball": 1,
+    "bear": 1,
+    "bench": 1,
+    "toothbrush": 1,
+    "spoon": 1,
+    "toilet": 1,
+    "tv": 1
+  },
+  "coco": {
+    "mAP_50_95": 0.4273,
+    "mAP_50": 0.58,
+    "mAP_75": 0.4543,
+    "AP_pequenos": 0.1814,
+    "AP_medianos": 0.4136,
+    "AP_grandes": 0.6099,
+    "AR_1": 0.3509,
+    "AR_10": 0.4813,
+    "AR_100": 0.4944,
+    "AR_pequenos": 0.2149,
+    "AR_medianos": 0.4722,
+    "AR_grandes": 0.6684
+  },
+  "ap_por_clase": [
+    {
+      "clase": "person",
+      "objetos": 254,
+      "AP_50_95": 0.5171,
+      "AP_50": 0.7464
+    },
+    {
+      "clase": "car",
+      "objetos": 46,
+      "AP_50_95": 0.1728,
+      "AP_50": 0.238
+    },
+    {
+      "clase": "cup",
+      "objetos": 36,
+      "AP_50_95": 0.2514,
+      "AP_50": 0.35
+    },
+    {
+      "clase": "chair",
+      "objetos": 35,
+      "AP_50_95": 0.2332,
+      "AP_50": 0.4513
+    },
+    {
+      "clase": "book",
+      "objetos": 29,
+      "AP_50_95": 0.1267,
+      "AP_50": 0.2827
+    },
+    {
+      "clase": "bowl",
+      "objetos": 28,
+      "AP_50_95": 0.4931,
+      "AP_50": 0.6113
+    },
+    {
+      "clase": "carrot",
+      "objetos": 24,
+      "AP_50_95": 0.3846,
+      "AP_50": 0.613
+    },
+    {
+      "clase": "spoon",
+      "objetos": 22,
+      "AP_50_95": 0.1466,
+      "AP_50": 0.3155
+    },
+    {
+      "clase": "teddy bear",
+      "objetos": 21,
+      "AP_50_95": 0.3298,
+      "AP_50": 0.5124
+    },
+    {
+      "clase": "handbag",
+      "objetos": 19,
+      "AP_50_95": 0.082,
+      "AP_50": 0.132
+    },
+    {
+      "clase": "umbrella",
+      "objetos": 18,
+      "AP_50_95": 0.3923,
+      "AP_50": 0.6408
+    },
+    {
+      "clase": "bottle",
+      "objetos": 18,
+      "AP_50_95": 0.2368,
+      "AP_50": 0.4072
+    },
+    {
+      "clase": "elephant",
+      "objetos": 17,
+      "AP_50_95": 0.5898,
+      "AP_50": 0.8113
+    },
+    {
+      "clase": "bird",
+      "objetos": 16,
+      "AP_50_95": 0.4758,
+      "AP_50": 0.8664
+    },
+    {
+      "clase": "wine glass",
+      "objetos": 16,
+      "AP_50_95": 0.2898,
+      "AP_50": 0.4804
+    },
+    {
+      "clase": "knife",
+      "objetos": 16,
+      "AP_50_95": 0.3959,
+      "AP_50": 0.6218
+    },
+    {
+      "clase": "traffic light",
+      "objetos": 14,
+      "AP_50_95": 0.1389,
+      "AP_50": 0.2005
+    },
+    {
+      "clase": "donut",
+      "objetos": 14,
+      "AP_50_95": 0.8663,
+      "AP_50": 0.9558
+    },
+    {
+      "clase": "potted plant",
+      "objetos": 14,
+      "AP_50_95": 0.4674,
+      "AP_50": 0.6994
+    },
+    {
+      "clase": "dining table",
+      "objetos": 13,
+      "AP_50_95": 0.4096,
+      "AP_50": 0.4784
+    },
+    {
+      "clase": "truck",
+      "objetos": 12,
+      "AP_50_95": 0.2907,
+      "AP_50": 0.43
+    },
+    {
+      "clase": "broccoli",
+      "objetos": 11,
+      "AP_50_95": 0.2121,
+      "AP_50": 0.2416
+    },
+    {
+      "clase": "kite",
+      "objetos": 10,
+      "AP_50_95": 0.1647,
+      "AP_50": 0.3954
+    },
+    {
+      "clase": "bench",
+      "objetos": 9,
+      "AP_50_95": 0.3068,
+      "AP_50": 0.5856
+    },
+    {
+      "clase": "dog",
+      "objetos": 9,
+      "AP_50_95": 0.5937,
+      "AP_50": 0.7774
+    },
+    {
+      "clase": "giraffe",
+      "objetos": 9,
+      "AP_50_95": 0.5977,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "clock",
+      "objetos": 9,
+      "AP_50_95": 0.6927,
+      "AP_50": 0.8257
+    },
+    {
+      "clase": "remote",
+      "objetos": 8,
+      "AP_50_95": 0.4658,
+      "AP_50": 0.5644
+    },
+    {
+      "clase": "cell phone",
+      "objetos": 8,
+      "AP_50_95": 0.029,
+      "AP_50": 0.0322
+    },
+    {
+      "clase": "bus",
+      "objetos": 7,
+      "AP_50_95": 0.6198,
+      "AP_50": 0.7129
+    },
+    {
+      "clase": "tie",
+      "objetos": 7,
+      "AP_50_95": 0.4582,
+      "AP_50": 0.7129
+    },
+    {
+      "clase": "snowboard",
+      "objetos": 7,
+      "AP_50_95": 0.5066,
+      "AP_50": 0.7129
+    },
+    {
+      "clase": "baseball glove",
+      "objetos": 7,
+      "AP_50_95": 0.3064,
+      "AP_50": 0.4257
+    },
+    {
+      "clase": "tennis racket",
+      "objetos": 7,
+      "AP_50_95": 0.3584,
+      "AP_50": 0.5446
+    },
+    {
+      "clase": "bicycle",
+      "objetos": 6,
+      "AP_50_95": 0.202,
+      "AP_50": 0.2805
+    },
+    {
+      "clase": "airplane",
+      "objetos": 6,
+      "AP_50_95": 0.5853,
+      "AP_50": 0.7836
+    },
+    {
+      "clase": "boat",
+      "objetos": 6,
+      "AP_50_95": 0.0791,
+      "AP_50": 0.2997
+    },
+    {
+      "clase": "backpack",
+      "objetos": 6,
+      "AP_50_95": 0.2154,
+      "AP_50": 0.3815
+    },
+    {
+      "clase": "sports ball",
+      "objetos": 6,
+      "AP_50_95": 0.2356,
+      "AP_50": 0.3703
+    },
+    {
+      "clase": "fork",
+      "objetos": 6,
+      "AP_50_95": 0.202,
+      "AP_50": 0.3366
+    },
+    {
+      "clase": "couch",
+      "objetos": 6,
+      "AP_50_95": 0.5366,
+      "AP_50": 0.8393
+    },
+    {
+      "clase": "sink",
+      "objetos": 6,
+      "AP_50_95": 0.0645,
+      "AP_50": 0.1403
+    },
+    {
+      "clase": "motorcycle",
+      "objetos": 5,
+      "AP_50_95": 0.7452,
+      "AP_50": 0.9038
+    },
+    {
+      "clase": "frisbee",
+      "objetos": 5,
+      "AP_50_95": 0.6832,
+      "AP_50": 0.7624
+    },
+    {
+      "clase": "skateboard",
+      "objetos": 5,
+      "AP_50_95": 0.3665,
+      "AP_50": 0.604
+    },
+    {
+      "clase": "pizza",
+      "objetos": 5,
+      "AP_50_95": 0.8574,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "oven",
+      "objetos": 5,
+      "AP_50_95": 0.3234,
+      "AP_50": 0.3894
+    },
+    {
+      "clase": "refrigerator",
+      "objetos": 5,
+      "AP_50_95": 0.4653,
+      "AP_50": 0.6322
+    },
+    {
+      "clase": "toothbrush",
+      "objetos": 5,
+      "AP_50_95": 0.305,
+      "AP_50": 0.604
+    },
+    {
+      "clase": "cat",
+      "objetos": 4,
+      "AP_50_95": 0.8337,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "zebra",
+      "objetos": 4,
+      "AP_50_95": 0.9752,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "suitcase",
+      "objetos": 4,
+      "AP_50_95": 0.6782,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "baseball bat",
+      "objetos": 4,
+      "AP_50_95": 0.2287,
+      "AP_50": 0.505
+    },
+    {
+      "clase": "orange",
+      "objetos": 4,
+      "AP_50_95": 0.1545,
+      "AP_50": 0.2574
+    },
+    {
+      "clase": "cake",
+      "objetos": 4,
+      "AP_50_95": 0.8013,
+      "AP_50": 0.9175
+    },
+    {
+      "clase": "train",
+      "objetos": 3,
+      "AP_50_95": 0.8611,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "bed",
+      "objetos": 3,
+      "AP_50_95": 0.5475,
+      "AP_50": 0.6634
+    },
+    {
+      "clase": "laptop",
+      "objetos": 3,
+      "AP_50_95": 0.0,
+      "AP_50": 0.0
+    },
+    {
+      "clase": "microwave",
+      "objetos": 3,
+      "AP_50_95": 0.6896,
+      "AP_50": 0.7896
+    },
+    {
+      "clase": "stop sign",
+      "objetos": 2,
+      "AP_50_95": 0.602,
+      "AP_50": 0.835
+    },
+    {
+      "clase": "horse",
+      "objetos": 2,
+      "AP_50_95": 0.7515,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "sandwich",
+      "objetos": 2,
+      "AP_50_95": 0.2525,
+      "AP_50": 0.2525
+    },
+    {
+      "clase": "hot dog",
+      "objetos": 2,
+      "AP_50_95": 0.7525,
+      "AP_50": 0.7525
+    },
+    {
+      "clase": "toilet",
+      "objetos": 2,
+      "AP_50_95": 0.505,
+      "AP_50": 0.505
+    },
+    {
+      "clase": "tv",
+      "objetos": 2,
+      "AP_50_95": 0.901,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "mouse",
+      "objetos": 2,
+      "AP_50_95": 0.0,
+      "AP_50": 0.0
+    },
+    {
+      "clase": "vase",
+      "objetos": 2,
+      "AP_50_95": 0.802,
+      "AP_50": 0.835
+    },
+    {
+      "clase": "bear",
+      "objetos": 1,
+      "AP_50_95": 1.0,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "skis",
+      "objetos": 1,
+      "AP_50_95": 0.5,
+      "AP_50": 1.0
+    },
+    {
+      "clase": "banana",
+      "objetos": 1,
+      "AP_50_95": 0.0333,
+      "AP_50": 0.1667
+    },
+    {
+      "clase": "scissors",
+      "objetos": 1,
+      "AP_50_95": 0.0,
+      "AP_50": 0.0
+    }
+  ],
+  "umbral_conf": {
+    "conf": 0.5,
+    "precision": 0.8925,
+    "recall": 0.3574,
+    "f1": 0.5104,
+    "verdaderos_positivos": 332,
+    "predicciones": 372,
+    "objetos_reales": 929
+  },
+  "barrido_umbral": [
+    {
+      "conf": 0.1,
+      "precision": 0.5576,
+      "recall": 0.5996,
+      "f1": 0.5778
+    },
+    {
+      "conf": 0.2,
+      "precision": 0.7151,
+      "recall": 0.5296,
+      "f1": 0.6085
+    },
+    {
+      "conf": 0.3,
+      "precision": 0.7937,
+      "recall": 0.4639,
+      "f1": 0.5856
+    },
+    {
+      "conf": 0.4,
+      "precision": 0.847,
+      "recall": 0.4112,
+      "f1": 0.5536
+    },
+    {
+      "conf": 0.5,
+      "precision": 0.8925,
+      "recall": 0.3574,
+      "f1": 0.5104
+    },
+    {
+      "conf": 0.6,
+      "precision": 0.9293,
+      "recall": 0.2971,
+      "f1": 0.4502
+    },
+    {
+      "conf": 0.7,
+      "precision": 0.9481,
+      "recall": 0.2357,
+      "f1": 0.3776
+    },
+    {
+      "conf": 0.8,
+      "precision": 0.9763,
+      "recall": 0.1776,
+      "f1": 0.3005
+    },
+    {
+      "conf": 0.9,
+      "precision": 1.0,
+      "recall": 0.0603,
+      "f1": 0.1137
+    }
+  ],
+  "mejor_f1": {
+    "conf": 0.2,
+    "precision": 0.7151,
+    "recall": 0.5296,
+    "f1": 0.6085
+  },
+  "confianza_media": 0.7507
+}
