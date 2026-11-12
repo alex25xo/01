@@ -2,6 +2,17 @@
 
 **Informe-resumen del trabajo**
 
+**Universidad Nacional del Altiplano – Escuela Profesional de Ingeniería de Sistemas**
+**Curso:** Visión Artificial · **Docente:** Ing. Fernández Chambi Mayenka · **Semestre:** X · **Grupo:** B
+
+### Integrantes
+
+* Ancco García José Manuel
+* Mestas Calsín Alex Cristian
+* Messco Condori Benigno Saúl
+* Quispe Soncco Willebeldo Fermín
+* Ticona Erquinigo Jhoel Jovani
+
 Este repositorio compara dos familias de detectores de objetos en dos escenarios:
 
 * **Faster R-CNN**, un detector de dos etapas.
@@ -18,7 +29,6 @@ Todo se ejecutó en la misma computadora, una CPU AMD con Windows y sin GPU. La 
 | d | YOLO en video / tiempo real | `metrica_videos/d_deteccion_de_objetos_yolo.py` |
 | e | Comportamiento en imagen vs. video según métricas | `e_comparar_imagenes.py`, `e_comparar_video.py` y la [sección 6](#6-parte-e-imagen-vs-video-qué-dicen-las-métricas) |
 | f | Informe-resumen | este README |
-
 ---
 
 ## Resultados principales
